@@ -31,6 +31,16 @@
     $("#contact-work").on("change",function(){
       $('#real-work').val(this.value);
     })
+
+    $("#musicClick").on("click",function(){
+      $("#musicClick").toggleClass("play")
+      var player = $("#player")[0];
+      if(player.paused){
+        player.play(); //播放
+      }else{
+        player.pause();
+      }
+    })
   
   })(window.jQuery);
 

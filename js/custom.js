@@ -27,6 +27,10 @@
         }, 300);
       }
     });
+
+    $("#contact-work").on("change",function(){
+      $('#real-work').val(this.value);
+    })
   
   })(window.jQuery);
 

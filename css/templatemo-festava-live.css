@@ -1051,15 +1051,16 @@ strong {
 
 .list-inline-item{
   font-size: 14px;
+  color: var(--secondary-color);
 
 }
 .list-inline-item i{
   margin-right: 5px;
   background: var(--secondary-color);
-  border-radius: var(--border-radius-large);
+  border-radius: var(--border-radius-medium);
   color: var(--white-color);
-  font-size: 12px;
-  line-height: 20px;
-  padding: 0px 10px;
+  font-size: 16px;
+  line-height: 36px;
+  padding: 0px 5px;    
   
 }

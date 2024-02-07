@@ -1020,12 +1020,19 @@ strong {
   }
 }
 
-#team .card {
+.card {
   /* border: none; */
   background: #ffffff;
   border-top: 5px solid var(--secondary-color);
 }
 
+.cardL2{
+  border-top:5px solid #a186f7;
+}
+
+.titleL2{
+  color: #a186f7;
+}
 
 .frontside .card,
 .backside .card {
